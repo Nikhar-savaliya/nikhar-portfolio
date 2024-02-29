@@ -2,32 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background: 220 23% 95%;
+    --foreground: 234 16% 35%;
+    --muted: 220 12% 90%;
+    --muted-foreground: 220 12% 30%;
+    --popover: 220 23% 92%;
+    --popover-foreground: 234 16% 25%;
+    --card: 220 23% 93%;
+    --card-foreground: 234 16% 30%;
+    --border: 220 13% 90%;
+    --input: 220 13% 87%;
+    --primary: 262 50% 60%;
+    --primary-foreground: 262 90% 95%;
+    --secondary: 233 13% 81%;
+    --secondary-foreground: 233 13% 21%;
+    --accent: 220 23% 80%;
+    --accent-foreground: 220 23% 20%;
+    --destructive: 3 87% 37%;
+    --destructive-foreground: 3 87% 97%;
+    --ring: 266 85% 58%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 240 21% 15%;
+    --foreground: 226 64% 88%;
+    --muted: 240 12% 19%;
+    --muted-foreground: 240 12% 69%;
+    --popover: 240 21% 12%;
+    --popover-foreground: 226 64% 98%;
+    --card: 240 21% 13%;
+    --card-foreground: 226 64% 93%;
+    --border: 240 11% 20%;
+    --input: 240 11% 23%;
+    --primary: 267 84% 81%;
+    --primary-foreground: 267 84% 21%;
+    --secondary: 245 30% 25%;
+    --secondary-foreground: 245 30% 85%;
+    --accent: 240 21% 30%;
+    --accent-foreground: 240 21% 90%;
+    --destructive: 8 96% 56%;
+    --destructive-foreground: 0 0% 100%;
+    --ring: 267 84% 81%;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@layer base {
+  * {
+    @apply border-border outline-offset-0 selection:bg-secondary;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
   }
 }
