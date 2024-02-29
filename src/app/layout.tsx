@@ -7,6 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Footer from "@/components/sections/Footer";
 import Contact from "@/components/sections/Contact";
 import { ModeToggle } from "@/components/ui/ThemeModeToggler";
+import { Analytics } from "@vercel/analytics/react";
 
 const noto = Noto_Sans_Display({ subsets: ["latin"], variable: "--sans" });
 const averia = Averia_Serif_Libre({
@@ -32,6 +33,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <Header />
           {children}
+          <Analytics />
           <Contact />
           {/* theme toggler */}
           <div className="fixed right-10 bottom-10  z-50 scale-125">
