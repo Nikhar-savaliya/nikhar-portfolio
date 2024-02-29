@@ -8,7 +8,7 @@ import Footer from "@/components/sections/Footer";
 import Contact from "@/components/sections/Contact";
 import { ModeToggle } from "@/components/ui/ThemeModeToggler";
 
-const inter = Noto_Sans_Display({ subsets: ["latin"], variable: "--sans" });
+const noto = Noto_Sans_Display({ subsets: ["latin"], variable: "--sans" });
 const averia = Averia_Serif_Libre({
   subsets: ["latin"],
   weight: ["300", "400", "700"],
@@ -18,7 +18,7 @@ const averia = Averia_Serif_Libre({
 export const metadata: Metadata = {
   title: "Nikhar Savaliya",
   description:
-    "This website is a portfolio showcasing the web development skills of Nikhar Savaliya.",
+    "This website serves as a portfolio, showcasing the web development skills of Nikhar Savaliya.",
 };
 
 export default function RootLayout({
@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.variable + " " + averia.variable}>
+      <body className={noto.variable + " " + averia.variable}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <Header />
           {children}
