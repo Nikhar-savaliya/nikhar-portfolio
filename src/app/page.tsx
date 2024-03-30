@@ -14,7 +14,8 @@ export default function Home() {
           Hey, I am Nikhar Savaliya
         </h1>
         <p className="pt-4 text-muted-foreground text-sm md:text-md ">
-          I am a programmer and web Developer from India.
+          I am a programmer and web developer from India, currently pursuing a
+          degree in Computer Engineering.
           <br />
           {/* trying to solve problems for greater good. */}
         </p>

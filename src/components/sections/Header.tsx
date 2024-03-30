@@ -1,9 +1,9 @@
 "use client";
 
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import nikhar from "@/assets/Nikhar.png";
+// import nikhar from "@/assets/Nikhar.png";
 import { ContactLinks, NavLinks } from "@/lib/navlinks";
 import {
   DropdownMenu,
@@ -13,7 +13,6 @@ import {
   DropdownMenuTrigger,
 } from "../ui/dropdown-menu";
 import { Menu } from "lucide-react";
-import { ModeToggle } from "../ui/ThemeModeToggler";
 import { usePathname } from "next/navigation";
 
 const Header: React.FC = () => {
@@ -29,11 +28,11 @@ const Header: React.FC = () => {
             className="flex gap-2 items-center opacity-100 "
             aria-label="Nikhar S."
           >
-            <Image
+            {/* <Image
               src={nikhar}
               alt="nikhar-img"
               className="w-10 aspect-square"
-            />
+            /> */}
             <span className="font-sans leading-7 relative font-medium text-lg antialiased flex">
               <div className="flex flex-col">
                 <span className="z-50 text-base text-foreground font-semibold ">
