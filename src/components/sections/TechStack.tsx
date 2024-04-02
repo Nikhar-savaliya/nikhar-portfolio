@@ -7,13 +7,13 @@ const TechStack = () => {
   return (
     <section className="max-w-6xl mx-auto mt-8 p-6 ">
       <p className="font-serif text-2xl md:text-3xl px-3 py-10  md:max-w-full text-left md:text-center ">
-        ⚒️ Tools and Technologies I work with
+        Tools and Technologies I work with
       </p>
       <div className="grid lg:grid-cols-2 gap-4">
         {/* frontend */}
         <div className="p-6 border rounded-2xl bg-popover ">
           <h2 className="pb-4 px-4 font-bold text-base">
-            🥇 Frontend Web Development
+            Frontend Web Development
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
             {frontEnd.map((item, index) => {
@@ -25,7 +25,7 @@ const TechStack = () => {
         {/* backend */}
         <div className="p-6 border rounded-2xl bg-popover ">
           <h2 className="pb-4 px-4 font-bold text-base">
-            🥈 Backend Web Technologies
+            Backend Web Technologies
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
             {backEnd.map((item, index) => {
@@ -37,7 +37,7 @@ const TechStack = () => {
         {/* other */}
         <div className="p-6 border rounded-2xl bg-popover ">
           <h2 className="pb-4 px-4 font-bold text-base">
-            🥉 Other Tools & Languages
+            Other Tools & Languages
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
             {other.map((item, index) => {

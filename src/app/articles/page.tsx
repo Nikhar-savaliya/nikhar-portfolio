@@ -5,7 +5,7 @@ const page = () => {
   return (
     <section className="px-4">
       <p className="text-center text-lg w-full md:text-2xl font-serif mt-20 mb-8">
-        📝 I write to share my work. Explore my collection, with more content on
+        I write to share my work. Explore my collection, with more content on
         the way.
       </p>
       <>

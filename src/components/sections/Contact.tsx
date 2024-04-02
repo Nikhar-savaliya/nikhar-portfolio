@@ -7,7 +7,6 @@ const Contact = () => {
   return (
     <section className="flex flex-col gap-2 items-center justify-center max-w-6xl mt-36 mb-24 px-4 mx-auto">
       <Badge variant="secondary" className="flex items-center gap-1">
-        <span className="animate-pulse">💸</span>
         <p>Open for full-time jobs or freelance</p>
       </Badge>
 

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Noto_Sans_Display, Averia_Serif_Libre } from "next/font/google";
+import { Averia_Serif_Libre } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
 
 import "./globals.css";
 import Header from "@/components/sections/Header";
@@ -9,7 +10,6 @@ import Contact from "@/components/sections/Contact";
 import { ModeToggle } from "@/components/ui/ThemeModeToggler";
 import { Analytics } from "@vercel/analytics/react";
 
-const noto = Noto_Sans_Display({ subsets: ["latin"], variable: "--sans" });
 const averia = Averia_Serif_Libre({
   subsets: ["latin"],
   weight: ["300", "400", "700"],
@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={noto.variable + " " + averia.variable}>
+      <body className={averia.variable + " " + GeistSans.className}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <Header />
           {children}

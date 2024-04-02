@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
             })}
           </ul>
           <p className="text-[10px] text-muted-foreground">
-            The development work was carried out <br></br>by @nikharsavaliya 🕊️
+            The development work was carried out <br></br>by @nikharsavaliya
           </p>
         </div>
         {/* <Image

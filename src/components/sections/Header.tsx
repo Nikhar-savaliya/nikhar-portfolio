@@ -59,9 +59,7 @@ const Header: React.FC = () => {
                     <Link
                       href={link.link}
                       className={`flex items-center justify-between gap-2 ${
-                        path == link.link
-                          ? "text-primary underline underline-offset-4 decoration-wavy"
-                          : ""
+                        path == link.link ? "text-primary" : ""
                       } `}
                     >
                       <link.icon size={20} />

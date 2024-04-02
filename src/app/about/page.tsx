@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section className="max-w-6xl mx-auto my-12 px-5 py-6">
       <p className="text-2xl pb-4 font-serif mb-4 text-center md:text-left">
-        👋🏼 Unveiling the Person Behind the Greeting
+        Unveiling the Person Behind the Greeting
       </p>
       <div className="container flex gap-10 flex-col md:flex-row items-center md:items-start ">
         <div className="w-[200px] md:w-48 h-[200px] md:h-48 rounded-3xl">
@@ -37,7 +37,7 @@ const About = () => {
 
       <div className="mt-16">
         <p className="text-2xl font-serif mb-4 max-md:text-center  ">
-          🎓 Academic and professional Experience
+          Academic and professional Experience
         </p>
         <div className="flex items-center rounded-lg space-x-2 border w-fit pr-12 p-6 py-3 bg-popover ">
           <div className="w-12 h-12">

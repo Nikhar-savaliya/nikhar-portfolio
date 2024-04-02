@@ -6,7 +6,7 @@ const Preview_Article = () => {
   return (
     <section className="px-4 mt-24">
       <p className="text-center text-2xl md:text-3xl font-serif my-10">
-        📝 Some Articles I wrote about Tech
+        Some Articles I wrote about Tech
       </p>
       <>
         {articleData.map((item) => {

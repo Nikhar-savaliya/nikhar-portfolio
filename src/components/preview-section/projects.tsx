@@ -6,7 +6,7 @@ const Preview_Projects = () => {
   return (
     <>
       <p className="text-center text-2xl font-serif mt-24">
-        🦖 Featured Projects I`ve Build
+        Featured Projects I`ve Build
       </p>
       <ul className="p-6 md:p-16 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
         {projects.map((proj) => {
