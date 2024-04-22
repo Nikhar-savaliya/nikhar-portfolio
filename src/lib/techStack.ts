@@ -30,9 +30,9 @@ export const techStack = {
     { name: "MongoDB", icon: mongodb },
   ],
   other: [
+    { name: "Postman", icon: postman },
     { name: "Java", icon: java },
     { name: "cpp", icon: cpp },
     { name: "Python", icon: python },
-    { name: "Postman", icon: postman },
   ],
 };

@@ -29,9 +29,13 @@ const project = (props: cardData) => {
       </div>
 
       <div className="flex-grow p-3 text-sm  ">
-        <ul className="p-1 px-6 text-start text-muted-foreground list-disc  mb-auto leading-7">
+        <ul className="p-1 px-6 text-start text-muted-foreground list-disc  mb-auto leading-6">
           {props.projectDescription.map((feature, index) => {
-            return <li key={index}>{feature}</li>;
+            return (
+              <li key={index} className="my-0.5">
+                {feature}
+              </li>
+            );
           })}
         </ul>
       </div>

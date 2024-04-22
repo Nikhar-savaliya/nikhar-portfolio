@@ -1,5 +1,6 @@
 import {
   AppWindow,
+  Book,
   FileEditIcon,
   GanttChartSquare,
   Pizza,
@@ -26,6 +27,28 @@ export const projects = [
       "Express.js",
       "MongoDB",
       "Firebase",
+    ],
+  },
+  {
+    img: Book,
+    projectName: "elib - Full stack e-library website",
+    projectLink: "https://elib-demo.vercel.app/",
+    repository: "https://github.com/Nikhar-savaliya/elib-client",
+    projectDetail: [
+      "beautiful UI for better experience",
+      "Enable users to submit digital books with title, author, genre, description and file.",
+      "Cloudinary Integration to Store digital book files securely and accessibly.",
+      "Authentication and Authorization to Ensure data security and privacy",
+      "Develop robust APIs for book submission, metadata management, and retrieval.",
+      "Implement comprehensive mechanisms for error handling and system logging.",
+    ],
+    techStack: [
+      "Next.js",
+      "shadcn UI",
+      "Express.js",
+      "Typescript",
+      "MongoDB",
+      "Cloudinary",
     ],
   },
   {
