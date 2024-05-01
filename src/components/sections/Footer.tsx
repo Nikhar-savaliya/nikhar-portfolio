@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="w-full py-10 px-4 border-t mt-24">
+    <footer className="w-full py-10 px-4 border-t-2  mt-24">
       <div className="flex max-w-5xl mx-auto items-start justify-around">
         <div className="container max-w-6xl mx-auto flex flex-col items-start justify-center">
           <ul className="flex gap-3 pb-4 ">

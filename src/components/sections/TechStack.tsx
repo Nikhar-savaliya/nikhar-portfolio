@@ -11,7 +11,7 @@ const TechStack = () => {
       </p>
       <div className="grid lg:grid-cols-2 gap-4">
         {/* frontend */}
-        <div className="p-6 border rounded-2xl bg-popover ">
+        <div className="p-6 border-2 rounded-2xl bg-card ">
           <h2 className="pb-4 px-4 font-bold text-base">
             Frontend Web Development
           </h2>
@@ -23,7 +23,7 @@ const TechStack = () => {
         </div>
 
         {/* backend */}
-        <div className="p-6 border rounded-2xl bg-popover ">
+        <div className="p-6 border-2 rounded-2xl bg-card ">
           <h2 className="pb-4 px-4 font-bold text-base">
             Backend Web Technologies
           </h2>
@@ -35,7 +35,7 @@ const TechStack = () => {
         </div>
 
         {/* other */}
-        <div className="p-6 border rounded-2xl bg-popover ">
+        <div className="p-6 border-2 rounded-2xl bg-card ">
           <h2 className="pb-4 px-4 font-bold text-base">
             Other Tools & Languages
           </h2>

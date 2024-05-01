@@ -12,16 +12,16 @@ interface cardData {
 
 const project = (props: cardData) => {
   return (
-    <li className="w-full border rounded-xl flex flex-col bg-popover border-border">
-      <div className="flex items-center gap-3 p-3 border-b border-border">
-        <props.icon className="text-popover-foreground" width={22} />
+    <li className="w-full border-2 rounded-xl flex flex-col bg-card text-card-foreground">
+      <div className="flex items-center gap-3 p-3 border-b-2">
+        <props.icon className="text-card-foreground" width={22} />
         <div className="flex flex-col">
           <a
             href={props.projectLink}
             className="text-xs hover:underline"
             target="_blank"
           >
-            <p className="text-base font-medium text-popover-foreground ">
+            <p className="text-base font-medium text-card-foreground ">
               {props.projectName}
             </p>
           </a>
@@ -47,7 +47,7 @@ const project = (props: cardData) => {
         ))}
       </div>
 
-      <div className="p-3 relative border-t border-border flex flex-col justify-end mt-5 text-md ">
+      <div className="p-3 relative border-t-2  flex flex-col justify-end mt-5 text-md ">
         <a
           href={props.repository}
           target="_blank"

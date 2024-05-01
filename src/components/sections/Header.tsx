@@ -19,7 +19,7 @@ const Header: React.FC = () => {
   const path = usePathname();
 
   return (
-    <div className="p-5 sticky w-full bg-background/90 top-0 backdrop-blur-md antialiased z-50 border-b">
+    <div className="p-5 sticky w-full bg-background/90 top-0 backdrop-blur-md antialiased z-50 border-b-2 ">
       <div className="flex items-center justify-between container mx-auto max-w-7xl p-1">
         <div className="flex items-center justify-between w-full">
           {/* LOGO */}
@@ -58,8 +58,10 @@ const Header: React.FC = () => {
                   >
                     <Link
                       href={link.link}
-                      className={`flex items-center justify-between gap-2 ${
-                        path == link.link ? "text-primary" : ""
+                      className={`flex items-center justify-between gap-2 transition-all ${
+                        path == link.link
+                          ? "text-primary  underline underline-offset-4 decoration-wavy"
+                          : ""
                       } `}
                     >
                       <link.icon size={20} />

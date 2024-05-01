@@ -39,7 +39,7 @@ const About = () => {
         <p className="text-2xl font-serif mb-4 max-md:text-center  ">
           Academic and professional Experience
         </p>
-        <div className="flex items-center rounded-lg space-x-2 border w-fit pr-12 p-6 py-3 bg-popover ">
+        <div className="flex items-center rounded-lg space-x-2 border-2 w-fit pr-12 p-6 py-3 bg-card ">
           <div className="w-12 h-12">
             <Image
               src={scetLogo}
@@ -48,7 +48,7 @@ const About = () => {
             />
           </div>
           <div className="text-sm p-1">
-            <p className="font-serif text-base text-popover-foreground">
+            <p className="font-serif text-base text-card-foreground">
               B.Tech in Computer Science
             </p>
             <p className="text-xs text-muted-foreground">

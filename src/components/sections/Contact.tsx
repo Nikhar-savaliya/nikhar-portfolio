@@ -1,4 +1,4 @@
-import { Mail } from "lucide-react";
+import { Circle, CircleDashed, Mail } from "lucide-react";
 import Link from "next/link";
 import { Button } from "../ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -6,7 +6,10 @@ import { Badge } from "@/components/ui/badge";
 const Contact = () => {
   return (
     <section className="flex flex-col gap-2 items-center justify-center max-w-6xl mt-36 mb-24 px-4 mx-auto">
-      <Badge variant="secondary" className="flex items-center gap-1">
+      <Badge
+        variant="default"
+        className="flex items-center gap-x-1.5 bg-emerald-800 dark:bg-emerald-300 text-emerald-200 dark:text-emerald-800"
+      >
         <p>Open for full-time jobs or freelance</p>
       </Badge>
 
