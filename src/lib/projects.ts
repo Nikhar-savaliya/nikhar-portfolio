@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 // ****** Project Data ******
-export const projects = [
+const projects = [
   {
     img: FileEditIcon,
     projectName: "Pearl - Full stack Blog website",
@@ -101,3 +101,5 @@ export const projects = [
     techStack: ["HTML", "CSS", "JavaScript", "React.js"],
   },
 ];
+
+export default projects;

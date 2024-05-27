@@ -30,13 +30,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={averia.variable + " " + GeistSans.className}>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <Header />
           {children}
           <Analytics />
           <Contact />
           {/* theme toggler */}
-          <div className="fixed right-10 bottom-10  z-50 scale-125">
+          <div className="fixed right-10 bottom-10  z-50 scale-150">
             <ModeToggle />
           </div>
           <Footer />
