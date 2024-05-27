@@ -1,5 +1,5 @@
 import Project from "@/components/ui/project";
-import { projects } from "@/lib/projects";
+import projects from "@/lib/projects";
 
 const Projects = () => {
   return (
