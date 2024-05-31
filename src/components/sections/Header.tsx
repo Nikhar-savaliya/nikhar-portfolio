@@ -99,7 +99,7 @@ const Header: React.FC = () => {
           {/* Mobile Navigation */}
           <div className="md:hidden">
             <DropdownMenu>
-              <DropdownMenuTrigger>
+              <DropdownMenuTrigger aria-label="Navigation menu trigger button">
                 <Menu width={24} />
               </DropdownMenuTrigger>
               <DropdownMenuContent className="mx-4 my-2">
